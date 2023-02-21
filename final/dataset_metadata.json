@@ -1,0 +1,13 @@
+{
+    "cpu_info": {
+        "arch": "X86_64",
+        "bits": 64,
+        "brand_raw": "Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz",
+        "count": 8,
+        "l2_cache_size": 262144
+    },
+    "dataset_size": 1000000,
+    "patient_indicators_generate_time_s": 0.26659202575683594,
+    "saving_time_s": 31.696553945541382,
+    "time_profiles_generation_time_s": 22173.783852100372
+}
