@@ -47,6 +47,8 @@ decorator==5.1.1
     # via ipython
 defusedxml==0.7.1
     # via nbconvert
+dill==0.3.6
+    # via multiprocess
 executing==1.2.0
     # via stack-data
 fastjsonschema==2.16.3
@@ -155,6 +157,8 @@ matplotlib-inline==0.1.6
     #   ipython
 mistune==2.0.5
     # via nbconvert
+multiprocess==0.70.14
+    # via -r requirements.in
 nbclassic==0.5.4
     # via notebook
 nbclient==0.7.2

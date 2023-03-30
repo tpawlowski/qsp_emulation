@@ -1,6 +1,7 @@
 ipython
 jupyter
 matplotlib
+multiprocess
 numpy
 optuna
 py-cpuinfo
