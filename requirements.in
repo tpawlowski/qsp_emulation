@@ -1,0 +1,9 @@
+ipython
+jupyter
+matplotlib
+numpy
+optuna
+py-cpuinfo
+rpy2
+scikit-learn
+tqdm
