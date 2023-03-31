@@ -16,7 +16,11 @@ if(tryInstallRequiredPackages) {
 }
 sourceDir <- getSrcDirectory(function(dummy) {});
 if(0 < length(sourceDir)) {
-    dllPath <- file.path(sourceDir, "ODEFunctions_9bfe43bb-b992-4c07-9082-848b89d72e5f.dll");
+    if (.Platform$OS.type == "unix"){
+        dllPath <- file.path(sourceDir, "ODEFunctions_9bfe43bb-b992-4c07-9082-848b89d72e5f.so");
+    } else {
+        dllPath <- file.path(sourceDir, "ODEFunctions_9bfe43bb-b992-4c07-9082-848b89d72e5f.dll");
+    }
     tryCatch(dyn.unload(dllPath), error = function(dummy) {});
     system(paste("R CMD SHLIB", file.path(sourceDir, "ODEFunctions_9bfe43bb-b992-4c07-9082-848b89d72e5f.c")));
 } else {
