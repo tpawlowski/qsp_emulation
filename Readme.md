@@ -36,6 +36,9 @@ $ mamba env create --file=environment.yml -n qsp_emulation
 
 Because of performance we suggest to use `mamba` instead of `conda`.
 
+The `environment_freeze.yml` file contains `mamba env export` output to recreate environment in
+a exactly the same version, but it also contains Linux specific packages.
+
 ## Usage
 
 Currently, the code is splitted on 5 parts. All notebooks are stored in `notebooks` folder.
