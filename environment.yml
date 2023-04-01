@@ -1,0 +1,18 @@
+name: qsp_emulation
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - ipython=8.12.0
+  - jupyter
+  - matplotlib=3.7.1
+  - multiprocess=0.70.14
+  - numpy=1.24.2
+  - optuna=3.1.0
+  - py-cpuinfo=9.0.0
+  - rpy2=3.5.10
+  - scikit-learn=1.2.2
+  - tqdm=4.65.0
+  - r-desolve=1.35
+  - r=4.2
