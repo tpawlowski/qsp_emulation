@@ -27,9 +27,11 @@
     "pca_components": 12,
     "pca_unexplained_variance_ratio": 1.5039885656489999e-06,
     "test_dataset": "[700000:850000] of ../final/dataset.npz",
-    "test_error": 6.001535804218453e-05,
+    "test_error_absolute": 1.553999355170883e-08,
+    "test_error_orders_of_magnitude": 5.6158462752489024e-05,
     "train_dataset": "[:700000] of ../final/dataset.npz",
-    "train_error": 5.533997321183838e-05,
+    "train_error_absolute": 2.6111250474356296e-08,
+    "train_error_orders_of_magnitude": 5.167492621982182e-05,
     "tumour_lower_size_limit_l": 1e-09,
     "tumour_lower_size_limit_log10_l": -9
 }
