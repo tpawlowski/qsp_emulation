@@ -65,16 +65,16 @@ def get_scaler(data_dir_path: Path, data_train: np.ndarray) -> CustomScaler:
     :param data_train: array with train data to initialize scaler
     :return: scaler itself
     """
-    data_dir_path = data_dir_path.resolve()
+    data_dir_path_ = data_dir_path.resolve()
 
-    if data_dir_path not in _SCALAR:
-        scaler_path = data_dir_path / "scaler.pickle"
+    if data_dir_path_ not in _SCALAR:
+        scaler_path = data_dir_path_ / "scaler.pickle"
 
         if scaler_path.exists():
             with scaler_path.open("rb") as scaler_file:
-                _SCALAR[data_dir_path] = pickle.load(scaler_file)
+                _SCALAR[data_dir_path_] = pickle.load(scaler_file)
         else:
-            _SCALAR[data_dir_path] = CustomScaler().fit(data_train)
+            _SCALAR[data_dir_path_] = CustomScaler().fit(data_train)
             with scaler_path.open("wb") as opened_file:
-                pickle.dump(_SCALAR, opened_file)
-    return _SCALAR[data_dir_path]
+                pickle.dump(_SCALAR[data_dir_path_], opened_file)
+    return _SCALAR[data_dir_path_]
