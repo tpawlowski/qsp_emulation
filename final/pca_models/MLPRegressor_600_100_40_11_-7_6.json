@@ -1,0 +1,40 @@
+{
+    "cpu_info": {
+        "arch": "X86_64",
+        "bits": 64,
+        "brand_raw": "Intel(R) Core(TM) i7-4980HQ CPU @ 2.80GHz",
+        "count": 8,
+        "l2_cache_size": 262144
+    },
+    "model_params": {
+        "alpha": 6.250830639889532e-05,
+        "batch_size": 2000,
+        "epsilon": 1.5625e-10,
+        "hidden_layer_sizes": [
+            600,
+            100,
+            40
+        ],
+        "learning_rate": "constant",
+        "learning_rate_init": 2.6248037993212865e-06,
+        "max_iter": 400,
+        "n_iter_no_change": 5,
+        "random_state": 42,
+        "tol": 1.5625e-07,
+        "verbose": true,
+        "warm_start": true
+    },
+    "pca_components": 11,
+    "pca_unexplained_variance_ratio": 5.32336460386995e-06,
+    "test_dataset": "[700000:850000] of ../final/dataset.npz",
+    "test_error_absolute": 7.22478490194604e-09,
+    "test_error_orders_of_magnitude": 3.931033215263559e-05,
+    "test_evaluation_s": 9,
+    "train_dataset": "[:700000] of ../final/dataset.npz",
+    "train_error_absolute": 1.1454052093262647e-08,
+    "train_error_orders_of_magnitude": 3.693785661675204e-05,
+    "train_evaluation_s": 42,
+    "training_time_s": 349,
+    "tumour_lower_size_limit_l": 1e-07,
+    "tumour_lower_size_limit_log10_l": -7
+}
