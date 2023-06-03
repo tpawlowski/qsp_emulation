@@ -1,0 +1,130 @@
+{
+    "cpu_info": {
+        "arch": "ARM_8",
+        "bits": 64,
+        "brand_raw": "Apple M2 Max",
+        "count": 12
+    },
+    "model_params": [
+        {
+            "bootstrap": true,
+            "criterion": "squared_error",
+            "max_features": 4,
+            "max_samples": 0.12583896439593575,
+            "min_samples_split": 4,
+            "n_estimators": 120,
+            "n_jobs": -1,
+            "random_state": 42
+        },
+        {
+            "bootstrap": true,
+            "criterion": "squared_error",
+            "max_features": 4,
+            "max_samples": 0.12583896439593575,
+            "min_samples_split": 4,
+            "n_estimators": 120,
+            "n_jobs": -1,
+            "random_state": 42
+        },
+        {
+            "bootstrap": true,
+            "criterion": "squared_error",
+            "max_features": 4,
+            "max_samples": 0.12583896439593575,
+            "min_samples_split": 4,
+            "n_estimators": 120,
+            "n_jobs": -1,
+            "random_state": 42
+        },
+        {
+            "bootstrap": true,
+            "criterion": "squared_error",
+            "max_features": 4,
+            "max_samples": 0.12583896439593575,
+            "min_samples_split": 4,
+            "n_estimators": 120,
+            "n_jobs": -1,
+            "random_state": 42
+        },
+        {
+            "bootstrap": true,
+            "criterion": "squared_error",
+            "max_features": 4,
+            "max_samples": 0.12583896439593575,
+            "min_samples_split": 4,
+            "n_estimators": 120,
+            "n_jobs": -1,
+            "random_state": 42
+        },
+        {
+            "bootstrap": true,
+            "criterion": "squared_error",
+            "max_features": 4,
+            "max_samples": 0.12583896439593575,
+            "min_samples_split": 4,
+            "n_estimators": 120,
+            "n_jobs": -1,
+            "random_state": 42
+        },
+        {
+            "bootstrap": true,
+            "criterion": "squared_error",
+            "max_features": 4,
+            "max_samples": 0.12583896439593575,
+            "min_samples_split": 4,
+            "n_estimators": 120,
+            "n_jobs": -1,
+            "random_state": 42
+        }
+    ],
+    "pca_components": 11,
+    "test_dataset": "[700000:850000] of ../final/dataset.npz",
+    "test_error_absolute": [
+        6.3546503651496705e-06,
+        3.840060488985571e-06,
+        2.9483856747169125e-06,
+        2.375641518424751e-06,
+        2.042639872253276e-06,
+        1.7990373505757734e-06,
+        1.5906781470868513e-06
+    ],
+    "test_error_orders_of_magnitude": [
+        0.07840559399032372,
+        0.04037422801224794,
+        0.0309167654990686,
+        0.02369312555122562,
+        0.01892333257092694,
+        0.01651436416591837,
+        0.014479833917993633
+    ],
+    "test_evaluation_s": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "train_dataset": "[:700000] of ../final/dataset.npz",
+    "train_prefixes": [
+        10000,
+        50000,
+        100000,
+        200000,
+        350000,
+        500000,
+        700000
+    ],
+    "training_time_s": [
+        0,
+        0,
+        0,
+        1,
+        3,
+        5,
+        7
+    ],
+    "tumour_lower_size_limit_l": 1e-07,
+    "tumour_lower_size_limit_log10_l": -7
+}

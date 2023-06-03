@@ -1,0 +1,186 @@
+{
+    "cpu_info": {
+        "arch": "ARM_8",
+        "bits": 64,
+        "brand_raw": "Apple M2 Max",
+        "count": 12
+    },
+    "model_params": [
+        {
+            "alpha": 0.0040005316095293,
+            "batch_size": 10000,
+            "epsilon": 1e-08,
+            "hidden_layer_sizes": [
+                600,
+                100,
+                40
+            ],
+            "learning_rate": "constant",
+            "learning_rate_init": 0.00016798744315656234,
+            "max_iter": 600,
+            "n_iter_no_change": 5,
+            "random_state": 42,
+            "tol": 1e-05,
+            "verbose": false,
+            "warm_start": false
+        },
+        {
+            "alpha": 0.0040005316095293,
+            "batch_size": 10000,
+            "epsilon": 1e-08,
+            "hidden_layer_sizes": [
+                600,
+                100,
+                40
+            ],
+            "learning_rate": "constant",
+            "learning_rate_init": 8.399372157828117e-05,
+            "max_iter": 600,
+            "n_iter_no_change": 5,
+            "random_state": 42,
+            "tol": 1e-05,
+            "verbose": false,
+            "warm_start": true
+        },
+        {
+            "alpha": 0.0040005316095293,
+            "batch_size": 10000,
+            "epsilon": 1e-08,
+            "hidden_layer_sizes": [
+                600,
+                100,
+                40
+            ],
+            "learning_rate": "constant",
+            "learning_rate_init": 5.599581438552078e-05,
+            "max_iter": 600,
+            "n_iter_no_change": 5,
+            "random_state": 42,
+            "tol": 1e-05,
+            "verbose": false,
+            "warm_start": true
+        },
+        {
+            "alpha": 0.0040005316095293,
+            "batch_size": 10000,
+            "epsilon": 1e-08,
+            "hidden_layer_sizes": [
+                600,
+                100,
+                40
+            ],
+            "learning_rate": "constant",
+            "learning_rate_init": 4.1996860789140585e-05,
+            "max_iter": 600,
+            "n_iter_no_change": 5,
+            "random_state": 42,
+            "tol": 1e-05,
+            "verbose": false,
+            "warm_start": true
+        },
+        {
+            "alpha": 0.0040005316095293,
+            "batch_size": 10000,
+            "epsilon": 1e-08,
+            "hidden_layer_sizes": [
+                600,
+                100,
+                40
+            ],
+            "learning_rate": "constant",
+            "learning_rate_init": 3.3597488631312465e-05,
+            "max_iter": 600,
+            "n_iter_no_change": 5,
+            "random_state": 42,
+            "tol": 1e-05,
+            "verbose": false,
+            "warm_start": true
+        },
+        {
+            "alpha": 0.0040005316095293,
+            "batch_size": 10000,
+            "epsilon": 1e-08,
+            "hidden_layer_sizes": [
+                600,
+                100,
+                40
+            ],
+            "learning_rate": "constant",
+            "learning_rate_init": 2.799790719276039e-05,
+            "max_iter": 600,
+            "n_iter_no_change": 5,
+            "random_state": 42,
+            "tol": 1e-05,
+            "verbose": false,
+            "warm_start": true
+        },
+        {
+            "alpha": 0.0040005316095293,
+            "batch_size": 10000,
+            "epsilon": 1e-08,
+            "hidden_layer_sizes": [
+                600,
+                100,
+                40
+            ],
+            "learning_rate": "constant",
+            "learning_rate_init": 2.3998206165223192e-05,
+            "max_iter": 600,
+            "n_iter_no_change": 5,
+            "random_state": 42,
+            "tol": 1e-05,
+            "verbose": false,
+            "warm_start": true
+        }
+    ],
+    "pca_components": 11,
+    "test_dataset": "[700000:850000] of ../final/dataset.npz",
+    "test_error_absolute": [
+        7.858470379408867e-06,
+        8.526562447121056e-07,
+        4.6386299949161745e-07,
+        1.5321123561126674e-07,
+        1.1777984067883093e-07,
+        4.855086058764295e-08,
+        3.5686914914243476e-08
+    ],
+    "test_error_orders_of_magnitude": [
+        0.042335726688195734,
+        0.010195660124600032,
+        0.005665793531164995,
+        0.0018167652035099328,
+        0.000567830517143403,
+        0.0002920957068492636,
+        0.00020251553010016955
+    ],
+    "test_evaluation_s": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "train_dataset": "[:700000] of ../final/dataset.npz",
+    "train_prefixes": [
+        10000,
+        50000,
+        100000,
+        200000,
+        350000,
+        500000,
+        700000
+    ],
+    "training_time_s": [
+        107,
+        352,
+        760,
+        1513,
+        3036,
+        3631,
+        4854
+    ],
+    "tumour_lower_size_limit_l": 1e-07,
+    "tumour_lower_size_limit_log10_l": -7
+}

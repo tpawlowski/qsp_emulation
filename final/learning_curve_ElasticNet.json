@@ -1,0 +1,116 @@
+{
+    "cpu_info": {
+        "arch": "ARM_8",
+        "bits": 64,
+        "brand_raw": "Apple M2 Max",
+        "count": 12
+    },
+    "model_params": [
+        {
+            "alpha": 0.0024004134957575202,
+            "fit_intercept": true,
+            "l1_ratio": 0.9137461284265193,
+            "max_iter": 10000,
+            "random_state": 42,
+            "warm_start": false
+        },
+        {
+            "alpha": 0.0024004134957575202,
+            "fit_intercept": true,
+            "l1_ratio": 0.9137461284265193,
+            "max_iter": 10000,
+            "random_state": 42,
+            "warm_start": true
+        },
+        {
+            "alpha": 0.0024004134957575202,
+            "fit_intercept": true,
+            "l1_ratio": 0.9137461284265193,
+            "max_iter": 10000,
+            "random_state": 42,
+            "warm_start": true
+        },
+        {
+            "alpha": 0.0024004134957575202,
+            "fit_intercept": true,
+            "l1_ratio": 0.9137461284265193,
+            "max_iter": 10000,
+            "random_state": 42,
+            "warm_start": true
+        },
+        {
+            "alpha": 0.0024004134957575202,
+            "fit_intercept": true,
+            "l1_ratio": 0.9137461284265193,
+            "max_iter": 10000,
+            "random_state": 42,
+            "warm_start": true
+        },
+        {
+            "alpha": 0.0024004134957575202,
+            "fit_intercept": true,
+            "l1_ratio": 0.9137461284265193,
+            "max_iter": 10000,
+            "random_state": 42,
+            "warm_start": true
+        },
+        {
+            "alpha": 0.0024004134957575202,
+            "fit_intercept": true,
+            "l1_ratio": 0.9137461284265193,
+            "max_iter": 10000,
+            "random_state": 42,
+            "warm_start": true
+        }
+    ],
+    "pca_components": 11,
+    "test_dataset": "[700000:850000] of ../final/dataset.npz",
+    "test_error_absolute": [
+        3.4884027998254604e+229,
+        2.5709527499886136e+66,
+        5.873389937417621e+37,
+        1.120991107895985e+25,
+        4.3883754099569934e+22,
+        519165384805.7318,
+        3.530018536926113e-05
+    ],
+    "test_error_orders_of_magnitude": [
+        0.1090845122636518,
+        0.05682126327003365,
+        0.0531811127224202,
+        0.052017208848169495,
+        0.051711165499761194,
+        0.05115852806466901,
+        0.050892599521947995
+    ],
+    "test_evaluation_s": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+    ],
+    "train_dataset": "[:700000] of ../final/dataset.npz",
+    "train_prefixes": [
+        10000,
+        50000,
+        100000,
+        200000,
+        350000,
+        500000,
+        700000
+    ],
+    "training_time_s": [
+        61,
+        473,
+        2074,
+        1793,
+        2423,
+        3219,
+        4941
+    ],
+    "tumour_lower_size_limit_l": 1e-07,
+    "tumour_lower_size_limit_log10_l": -7
+}

@@ -1,0 +1,95 @@
+{
+    "cpu_info": {
+        "arch": "ARM_8",
+        "bits": 64,
+        "brand_raw": "Apple M2 Max",
+        "count": 12
+    },
+    "model_params": [
+        {
+            "n_jobs": -1,
+            "n_neighbors": 10,
+            "weights": "distance"
+        },
+        {
+            "n_jobs": -1,
+            "n_neighbors": 10,
+            "weights": "distance"
+        },
+        {
+            "n_jobs": -1,
+            "n_neighbors": 10,
+            "weights": "distance"
+        },
+        {
+            "n_jobs": -1,
+            "n_neighbors": 10,
+            "weights": "distance"
+        },
+        {
+            "n_jobs": -1,
+            "n_neighbors": 10,
+            "weights": "distance"
+        },
+        {
+            "n_jobs": -1,
+            "n_neighbors": 10,
+            "weights": "distance"
+        },
+        {
+            "n_jobs": -1,
+            "n_neighbors": 10,
+            "weights": "distance"
+        }
+    ],
+    "pca_components": 11,
+    "test_dataset": "[700000:850000] of ../final/dataset.npz",
+    "test_error_absolute": [
+        5.751603550471231e-06,
+        4.043393790564096e-06,
+        3.440104106561003e-06,
+        2.9552756832474423e-06,
+        2.614866431333333e-06,
+        2.3977619713001897e-06,
+        2.2217949014579616e-06
+    ],
+    "test_error_orders_of_magnitude": [
+        0.14569547122806634,
+        0.10968877839960588,
+        0.0987159443304976,
+        0.08502886463588294,
+        0.07665942505946821,
+        0.0710797175216079,
+        0.06617947419276471
+    ],
+    "test_evaluation_s": [
+        5,
+        10,
+        12,
+        15,
+        17,
+        17,
+        20
+    ],
+    "train_dataset": "[:700000] of ../final/dataset.npz",
+    "train_prefixes": [
+        10000,
+        50000,
+        100000,
+        200000,
+        350000,
+        500000,
+        700000
+    ],
+    "training_time_s": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "tumour_lower_size_limit_l": 1e-07,
+    "tumour_lower_size_limit_log10_l": -7
+}
