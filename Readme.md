@@ -1,6 +1,7 @@
 # QSP emulation 
 
-This repository contains code for estimating QSP model using machine learning methods.
+This repository contains code for emulating Quantitative Systems Pharmacology (QSP) model using machine learning 
+methods.
 
 ## Installation
 
@@ -41,9 +42,16 @@ a exactly the same version, but it also contains Linux specific packages.
 
 ## Usage
 
-Currently, the code is splitted on 5 parts. All notebooks are stored in `notebooks` folder.
+The code is split to six parts. All notebooks are stored in `notebooks` folder.
 
-1. `01. Generating training dataset (1M patients) using QSP.ipynb` - this notebook generates training dataset 
-   using QSP model implemented in R language.
-2. `02. Training ML models.ipynb` - this notebook trains and evaluates ML models on generated 
-   dataset.
+1. `01. Generating training dataset (1M patients) using QSP.ipynb` - generates a training dataset 
+   of 1000000 patients using QSP model implemented in R language.
+2. `02. Training ML models.ipynb` - trains and evaluates Machine Learning (ML) model emulators on 
+   generated dataset.
+3. `03. Hand-adjusting params and selecting best PCA value.ipynb` - trains and evaluates multiple more 
+   variants of `MLPRegressor` emulator, which was selected as best performing in notebook 2.
+4. `04. ML Models learning-curves.ipynb` - presents comparison of learning curves of best performing models trained in 
+   notebook 2.
+5. `05. Best model evaluation.ipynb` - visualizes the absolute and relative error of the best performing emulator
+6. `06. Fitting population params.ipynb` - shows the use case of the emulator, by fitting population params to match 
+   waterfall plots of virtual and clinical trials.
